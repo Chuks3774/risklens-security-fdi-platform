@@ -1,0 +1,26 @@
+project:
+  name: risklens-security-fdi-platform
+  environment: local
+  start_year: 2013
+  end_year: 2023
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  logs: logs
+
+datasets:
+  world_bank_fdi:
+    source: world_bank_api
+    indicator: BX.KLT.DINV.CD.WD
+    frequency: annual
+    description: Foreign direct investment, net inflows (BoP, current US$)
+
+quality:
+  rules:
+    - not_null: [country, year, value]
+    - year_range: [2013, 2023]
+
+sla:
+  refresh_frequency: annual
+  max_delay_days: 30
