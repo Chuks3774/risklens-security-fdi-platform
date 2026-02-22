@@ -1,11 +1,11 @@
 # RiskLens Security Risk And FDI Analytics Platform
-![alt text](image.png)
+![Data lakehouse](./img/image.png)
 ### Data lakehouse as system combination from warehouse and lake outline diagram
-![alt text](image-1.png)
+![alt text](./img/image-1.png)
 ### Medallion Achitecture(Bronze,Silver And Gold)
-![alt text](image-2.png)
+![medallion arch](./img/image-2.png)
 ### Understanding Data Pipelines(Architecture and Workflow)
-![alt text](image-3.png)
+![Data pipeline arch](./img/image-3.png)
 Data Pipeline(Data Engineering)
 ## Overview
 
@@ -28,11 +28,11 @@ a reproducible ingestion pipeline,
 a governed analytics data model
 and a foundation for evidence-based policy and investment analysis.
 ## Architecture pattern: Lakehouse with Medallion layers
-![alt text](image-4.png)
+![lakehouse arch](./img/image-4.png)
 Data lakehouse
-![alt text](image-5.png)
+![data lakehouse](./img/image-5.png)
 Medallion Architecture
-![alt text](image-6.png)
+![medallion arch](./img/image-6.png)
 Data Ingestion
 ### Layers
 Bronze (Raw): Source-faithful ingested datasets
